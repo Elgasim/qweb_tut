@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="somePythonTemplate" name="Some Python template">
-        <h1>Qweb template</h1>
+        <t t-call="website.layout">
+            <h3>QWeb tutorials</h3>
+        </t>
     </template>
 </odoo>
