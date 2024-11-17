@@ -5,8 +5,8 @@
 <ol>
     <li><strong>Python Interprater:</strong>
         <p>It only inteperates python expressions</p>
-        <p>if you want to use it in python:
-            <ul>
+        <p><strong>if you want to use it in python:</strong>
+            <ol>
                 <li>Define new template:
                     <ol>
                         <li>Use template open and close tags</li>
@@ -65,10 +65,10 @@
                         <li></li>
                     </ol>
                 </li>
-            </ul>
+            </ol>
         </p>
         <p>
-            It can be used by:
+            <strong>It can be used by:</strong>
             <ol>
                 <li>PDF Report function</li>
                 <li>Rendering Controller</li>
@@ -77,8 +77,8 @@
     </li>
     <li><strong>JS Interprater:</strong>
         <p>It only inteperates Java script expressions</p>
-        <p>if you want to use it in Javascript:
-            <ul>
+        <p><strong>if you want to use it in Javascript:</strong>
+            <ol>
                 <li>Define new template:
                     <ol>
                         <li>Use templates open and close tags use xml:space='preserve'</li>
@@ -101,7 +101,7 @@
                 </li>
                 <li>Reference this template on python tempate using css selector</li>
                 <li>define owl component or public wedgit with the css selector</li>
-            </ul>
+            </ol>
         </p>
         <p>
             It can be used by:
