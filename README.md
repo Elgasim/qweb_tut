@@ -134,11 +134,11 @@
 <strong><i>Step 1</i></strong>
 <ol>
     <li>Create template:
-        <code>
+        <xmp>
             <template id="somePythonTemplate" name="Some Python template">
                 <h1>Qweb template</h1>
             </template>
-        </code>
+        </xmp>
     </li>
     <li>Add file to data property in manifest file</li>
     <li>Upgrade module and search on view grouped by qweb for your template</li>
