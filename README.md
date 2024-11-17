@@ -1,6 +1,5 @@
-# qweb_tut
-<h1>Qweb TEmplates Tutorials</h1>
-<h2>Qweb templates:</h2>
+<h1>Qweb Templates Tutorials</h1>
+<h2>Lesson 1: Qweb templates Basics</h2>
 <h3>There are two types of qweb templates:</h3>
 <ol>
     <li><strong>Python Interprater:</strong>
@@ -76,7 +75,7 @@
         </p>
     </li>
     <li><strong>JS Interprater:</strong>
-        <p>It only inteperates Java script expressions</p>
+        <p>It only inteperates Java script expressions main purpose for web client</p>
         <p><strong>if you want to use it in Javascript:</strong>
             <ol>
                 <li>Define new template:
@@ -130,3 +129,18 @@
         <li>OWL component [JS]</li>
     </ol>
 </p>
+<h2>Lesson 2: Python Interperater Templates startup</h2>
+<strong>Steps:</strong>
+<strong><i>Step 1</i></strong>
+<ol>
+    <li>Create template:
+        <code>
+            <template id="somePythonTemplate" name="Some Python template">
+                <h1>Qweb template</h1>
+            </template>
+        </code>
+    </li>
+    <li>Add file to data property in manifest file</li>
+    <li>Upgrade module and search on view grouped by qweb for your template</li>
+</ol>
+
