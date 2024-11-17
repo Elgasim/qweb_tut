@@ -143,4 +143,49 @@
     <li>Add file to data property in manifest file</li>
     <li>Upgrade module and search on view grouped by qweb for your template</li>
 </ol>
+<strong><i>Step 2</i></strong>
+<ol>Create Controller:
+    <li>create python file in controller directory</li>
+    <li>create __init__ file in controller directory</li>
+    <li>reference controller directory in outside __init__ file</li>
+    <li>import http from odoo and request from odoo.http</li>
+    <li>Create new class encapsulated from http.Controller</li>
+    <li>Create controller == function with decorator http.route:
+        <ol>
+            <li>Decorator with attributes:
+                <ol>
+                    <li>URL in string format</li>
+                    <li>auth in string format:
+                        <ol>
+                            <li>public: for public user</li>
+                            <li>user: for logged user</li>
+                        </ol>
+                    </li>
+                    <li>type in string format:
+                        <ol>
+                            <li>http: for portal and webpages</li>
+                            <li>json: for APIs</li>
+                        </ol>
+                    </li>
+                    <li>website in boolean value:
+                        <ol>
+                            <li>True: if you call website.layout template you must add web and website as depends on manifest</li>
+                            <li>False: if you do not call website.layout template</li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+            <li>function that returns:
+                <ol>
+                    <li>render method from http.request this function accept parameter as:
+                        <ol>
+                            <li>Template external ID as rference in string format</li>
+                            <li>Any data in dictionary</li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </li>
+</ol>
 
