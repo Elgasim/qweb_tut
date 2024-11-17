@@ -8,6 +8,7 @@
     'summary': 'Qweb Template Tut',
     'depends': ['base'],
     "data": [
+        'views/for_python_templates.xml',
     ],
     'demo': [
     ],
