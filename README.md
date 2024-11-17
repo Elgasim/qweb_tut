@@ -3,7 +3,7 @@
 <h2>Qweb templates:</h2>
 <h3>There are two types of qweb templates:</h3>
 <ol>
-    <li>Python Interprater:
+    <li><strong>Python Interprater:</strong>
         <p>It only inteperates python expressions</p>
         <p>if you want to use it in python:
             <ul>
@@ -75,7 +75,7 @@
             </ol>
         </p>
     </li>
-    <li>JS Interprater:
+    <li><strong>JS Interprater:</strong>
         <p>It only inteperates Java script expressions</p>
         <p>if you want to use it in Javascript:
             <ul>
