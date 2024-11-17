@@ -6,7 +6,7 @@
     'version': '1.0',
     'category': 'Technical',
     'summary': 'Qweb Template Tut',
-    'depends': ['base'],
+    'depends': ['base','web','website'],
     "data": [
         'views/for_python_templates.xml',
     ],
